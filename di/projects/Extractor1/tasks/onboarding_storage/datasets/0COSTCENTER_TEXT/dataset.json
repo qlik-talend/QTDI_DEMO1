@@ -1,0 +1,21 @@
+{
+  "id": "0costcenter_text-faj2",
+  "name": "0COSTCENTER_TEXT",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "0costcenter_text",
+      "name": "0COSTCENTER_TEXT",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding_landing-fajy"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

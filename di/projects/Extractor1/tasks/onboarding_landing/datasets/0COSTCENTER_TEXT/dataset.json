@@ -1,0 +1,13 @@
+{
+  "id": "0costcenter_text",
+  "name": "0COSTCENTER_TEXT",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$_0costcenter_text",
+      "name": "0COSTCENTER_TEXT",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding_landing-fajy"
+    }
+  ]
+}

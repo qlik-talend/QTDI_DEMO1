@@ -1,0 +1,17 @@
+{
+  "sourceConnection": "{{task.onboarding_landing-fajy.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "0COSTCENTER_ATTR",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$_0costcenter_attr"
+    },
+    {
+      "name": "0COSTCENTER_TEXT",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$_0costcenter_text"
+    }
+  ]
+}
